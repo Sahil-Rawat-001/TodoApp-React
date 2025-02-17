@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+.todo-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+
+/* add button css */
+.add-button{
+  background-color:rgb(49, 225, 49);
+}
+.add-button:hover{
+  background-color:rgb(43, 186, 43);
+}
+
+
+/* delete button css */
+.delete-button{
+  background-color:rgb(235, 19, 19);
+}
+.delete-button:hover{
+  background-color:rgb(200, 18, 18);
+}
+
+
+/* moveup button css */
+.moveup-button{
+  background-color:rgb(19, 120, 235);
+}
+.moveup-button:hover{
+  background-color:rgb(14, 118, 159);
+}
+
+
+/* move down button css */
+.movedown-button{
+  background-color:rgb(19, 120, 235);
+}
+
+.movedown-button:hover{
+  background-color:rgb(14, 118, 159);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid silver;
+  color: black;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(221, 219, 219, 0.908);
+  margin-bottom: 10px;
+  border:  3px solid grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+  color: black;
+}
+
+.delete-button, .moveup-button, .movedown-button{
+
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
